@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+<meta charset="utf-8">
+<title>Global Brain Consortium</title>
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="This is the website of the Global Brain Consortium.">
+<meta name="keywords" content="Neuro, Brain, Research, Big Data, Science, Medicine">
+</head>
+<body>
+<div id="main-wrapper">
+  <!-- first section -->
+  <section class="marquee">
+    <div class="title">
+      <h1>Global Brain Consortium</h1>
+      <p>There is a considerable appetite for the creation of transnational <strong>neuroscience networks</strong> that will allow us to tackle some of biggest questions in neuroscience.</p>
+      <p>Modern neuroscience has an arsenal of theoretical, modelling and neuroimaging technologies, but many of these devices are not readily available in Lower- and Middle-Income Countries (LMIC). </p>
+      <img src="images/gbc-logo.png" class="marquee-logo">     
+    </div>
+  </section>
+  <!-- second section -->
+  <section class="middle-box">
+    <div class="middle-detail">
+      <img src="images/bulb.png" class="bulb">
+      <p>Fortunately, access to an array of digital and neuro-technologies, enhanced in recent years thanks to the investment of <strong><a href="http://bigbrainproject.org">the BigBrain</a></strong>, may allow us to cross this critical divide.</p>
+    </div>
+  </section>
+  <!-- final section -->
+  <section class="last-box">
+    <div class="last-detail">
+      <p>The</p>
+      <h2>Global Brain Consortium</h2>
+      <p>will hold its <strong>inaugural meeting</strong> on</p>
+      <h2>May 9 - 10 2019</h2>
+      <p>In the <strong>Grandpre Communication Centre</strong></p>
+      <p>at the Montreal Neurological Institute, Montreal, Canada</p>
+      <p>to discuss objectives, strategies, and solutions for long-term sustainability</p>
+      <!-- <button>Find out more</button> -->
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <a href="http://ludmercentre.ca"><img src="images/Ludmer-New-Logo-2.png"></a>
+    <a href="https://www.mcgill.ca/hbhl/"><img src="images/HBHL-logo.png"></a>
+    <a href="https://www.mcgill.ca"><img src="images/McGill-logo.png"></a>
+    <a href="http://mcin.ca"><img src="images/MCIN-logo.png"></a>
+    <a href="https://www.mcgill.ca/neuro/"><img src="images/Neuro-logo.jpg"></a>
+  </footer>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+$('.box').click(function () {
+    $(this).addClass('clicked');
+    $('.close').addClass('visible');
+});
+
+$('.close').click(function () {
+  $(this).removeClass('visible');
+  $('.box').removeClass('clicked');
+});
+
+</script>
+</body></html>
